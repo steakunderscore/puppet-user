@@ -1,55 +1,18 @@
 {
-  "operatingsystem_support": [
-    {
-      "operatingsystem": "RedHat"
-    },
-    {
-      "operatingsystem": "CentOS"
-    },
-    {
-      "operatingsystem": "OracleLinux"
-    },
-    {
-      "operatingsystem": "Scientific"
-    },
-    {
-      "operatingsystem": "Debian"
-    },
-    {
-      "operatingsystem": "Ubuntu"
-    },
-    {
-      "operatingsystem": "FreeBSD"
-    },
-    {
-      "operatingsystem": "Gentoo"
-    },
-    {
-      "operatingsystem": "ArchLinux"
-    }
+  "types": [
+
   ],
-  "requirements": [
-    {
-      "name": "pe",
-      "version_requirement": "3.2.x"
-    },
-    {
-      "name": "puppet",
-      "version_requirement": "3.x"
-    }
-  ],
-  "name": "saz-ssh",
-  "version": "0.1.0",
-  "source": "git://github.com/steakunderscore/puppet-user.git",
-  "author": "saz",
   "license": "Apache License, Version 2.0",
-  "summary": "UNKNOWN",
-  "description": "Puppet module for managing users leveraging heira ",
-  "project_page": "https://github.com/steakunderscore/puppet-user",
+  "version": "0.1.0",
+  "source": 'https://github.com/steakunderscore/puppet-user',
+  "description": "Puppet module to manage users in a nested fassion. It heavily makes use of hiera to default and override settings for user managment.",
+  "summary": "Manage users using hiera data.",
+  "author": "Henry Jenkins",
+  "name": "hiera-users",
   "dependencies": [
     {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 2.2.1"
+      "name": "puppetlabs/stdlib"
     }
-  ]
+  ],
+  "project_page": "https://github.com/steakunderscore/puppet-user"
 }
