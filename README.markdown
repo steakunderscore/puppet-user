@@ -1,6 +1,6 @@
-#Hiera Users
+#Hiera Users [![Build Status](https://secure.travis-ci.org/steakunderscore/puppet-user.png)](http://travis-ci.org/steakunderscore/puppet-user)
 
-####Table of Contents
+##Table of Contents
 
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
@@ -12,6 +12,9 @@
 5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
 5. [Limitations - OS compatibility, etc.](#limitations)
 6. [Development - Guide for contributing to the module](#development)
+
+###Gittip
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/steakunderscore/)
 
 ##Overview
 
